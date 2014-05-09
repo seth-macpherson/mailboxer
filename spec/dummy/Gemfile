@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.0.0'
+gem 'rails', '~> 3'
 gem 'mailboxer', :path => '../../'
 gem 'factory_girl'
+gem 'pry'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

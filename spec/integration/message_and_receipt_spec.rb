@@ -62,7 +62,7 @@ describe "Messages And Mailboxer::Receipts" do
         @message2.sender.id.should == @entity2.id
         @message2.sender.class.should == @entity2.class
         assert @message2.body.eql?"Reply body"
-        assert @message2.subject.eql?"RE: Subject"
+        @message2.subject.should eq "RE: Subject"
       end
 
       it "should create proper mails" do
